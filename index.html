@@ -14,42 +14,42 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header" class="alt">
-						<a href="index.html" class="logo"><strong>Home Page</strong></a>
+					<header id="header" class="alt style2">
+						<a href="index.html" class="logo"><strong>Work</strong></a>
 						<a href="About Me.html" class="logo">About Me</a>
 						<a href="Derek Shi Resume.pdf" target="_blank" class="logo">Resume</a>
 						<nav>
-							<a href="#menu">Menu</a>
+							<a href="https://github.com/derekjshi" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a>
+							<a href="https://www.linkedin.com/in/derekjshi/" target="_blank"class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a>
 						</nav>
+						<style>
+							/* The sticky class is added to the header with JS when it reaches its scroll position */
+							.sticky {
+							position: fixed;
+							top: 0;
+							width: 100%
+							}
+							/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+							.sticky + .content {
+							padding-top: 102px;
+							}
+						</style>
 					</header>
-
-				<!-- Menu -->
-					<nav id="menu">
-						<ul class="links">
-							<li><a href="index.html" class="button primary fit ">Home</a></li>
-							<li><a href="About Me.html" class="button primary fit ">About Me</a></li>
-						</ul>
-						<ul class="actions stacked">
-							<li><a href="Derek Shi Resume.pdf" target="_blank" class="button fit">Resume</a></li>
-							<li><a href="https://github.com/derekjshi" target="_blank" class="button fit">GitHub</a></li>
-							<li><a href="https://www.linkedin.com/in/derekjshi/" target="_blank" class="button fit">LinkedIn</a></li>
-						</ul>
-					</nav>
-
+					
 				<!-- Banner -->
-					<section id="banner" class="major">
-						<div class="inner">
-                           				 <header class="major">
-                                				<h1>Welcome to my Portfolio</h1>
-                           				 </header>
-                           			 <div class="content">
-							 <p>Explore some of my personal projects below or click here to learn more about me</p>
-							 <ul class="actions">
-                                    				<li><a href="About Me.html" class="button next scrolly">About Me</a></li>
-							</ul>
-                            			</div>
+				<section id="banner" class="major">
+					<div class="inner">
+						<header class="major">
+							<h1>Hi I'm Derek</h1>
+						</header>
+						<div class="content">
+							<p>
+							I'm detail-oriented, analytical, and interested in the reality of what data can tell us about 
+							ourselves and others.
+							</p>
 						</div>
-					</section>
+					</div>
+				</section>
 				<!-- Main -->
 					<div id="main">
 
@@ -61,7 +61,9 @@
 									</span>
 									<header class="major">
 										<h3><a href="https://repl.it/@derekjshi/What-To-Play#main.py" target="_blank" class="link">Video Game Selector</a></h3>
-										<p>Can't figure out which game to play?</p>
+										<p>
+											Basic randomizer to practice Git, numpy, and time complexity
+										</p>
 									</header>
 								</article>
 								<article>
@@ -70,7 +72,7 @@
 									</span>
 									<header class="major">
 										<h3><a href="https://github.com/derekjshi/NBA_Pandas/blob/master/NBA%20Pandas%20Test.ipynb" target="_blank" class="link">NBA Lottery Pick Rookie Seasons</a></h3>
-										<p>Basic data visualization project learning Pandas and Matplotlib</p>
+										<p>Data visualization project learning Pandas and Matplotlib</p>
 									</header>
 								</article>
 							</section>
