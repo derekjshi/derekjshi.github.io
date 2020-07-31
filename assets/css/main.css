@@ -2752,7 +2752,7 @@ input, select, textarea {
 			min-height: 23em;
 			overflow: hidden;
 			position: relative;
-			width: 40%;
+			width: 33.33%;
 		}
 
 			.tiles article .image {
@@ -2826,9 +2826,6 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
-				width: 60%;
-			}
 
 			.tiles article:nth-child(6n - 5):before {
 				background-color: #6fc3df;
